@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+
+body{
+    background-color: #efefef;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+
+.navbar{
+
+    background-color: #fff;
+    width: 20%;
+    height: 100vh;
+}
+
+.navbar ul{
+    list-style: none;
+    padding: 10px;
+}
+
+.navbar ul li a {
+    padding: 10px;
+    background-color: #cccc;
+    color: royalblue;
+    display: block;
+    width: 100%;
+    margin: 5px 0 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    border-bottom: 2px solid royalblue;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.navabar ul li:hover{
+  background-color: royalblue;
+  color: #fff;
+
+}
+.mainSec {
+    display: flex
+}
+
+.auth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+form {
+    background-color:#fff;
+    padding: 10px;
+    width: 300px;
+    margin: 3px;
+
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+
+}
+
+label{
+    color:royalblue;
+    font-weight: bold;
+    margin: 5px 0;
+    display: block;
+    text-transform: capitalize;
+}
+
+button{
+    background-color: royalblue;
+    color: #fff;
+    width: 100%;
+    border-radius: 4px;
+    padding: 10px 20px;
+    border: 1px solid royalblue;
+    margin: 10px 0;
+    
+}
+
+button:hover{
+    background-color: rgb(144,53,213);
+}
+
+.search input{
+    width: 10rem;
+   
+    align-items: center;
+    
+}
+
+.search{
+
+    
+}
+
+.searching{
+    display: grid;
+    grid-template-columns: repeat(4,290px);
+  
+}
+
+
+.search1{
+    
+
+    width:250px;
+    border-left: 9px solid greenyellow;
+    border-right: 9px solid greenyellow;
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px 5px black;
+    border-radius: 5px;
+    background-color: #fff;
+
+}
+
+
+.btn{
+    display: flex;
+    width: 20%;
+   
+    margin-top: 70px;
+    padding: 30px;
+    margin-left: 459px;
+    padding-right: 90px;
+    
+}
